@@ -388,25 +388,25 @@ function App() {
         <StyledScrollTrigger id="aaa" />
         <StyledGraphicsWrapper scroll={scrollTop} screenHeight={screenHeight}>
           <StyledForeground
-            src="/foreground.png"
+            src={`${import.meta.env.BASE_URL}foreground.png`}
             alt="Illustration foreground"
             scroll={scrollTop}
             screenHeight={screenHeight}
           />
           <StyledWhiteTowers
-            src="/white_towers.png"
+            src={`${import.meta.env.BASE_URL}white_towers.png`}
             alt="Illustration towers"
             scroll={scrollTop}
             screenHeight={screenHeight}
           />
           <StyledLightning
-            src="/lightning.png"
+            src={`${import.meta.env.BASE_URL}lightning.png`}
             alt="Illustration lightning"
             scroll={scrollTop}
             screenHeight={screenHeight}
           />
           <StyledJohnny
-            src="/johnny.png"
+            src={`${import.meta.env.BASE_URL}johnny.png`}
             alt="Illustration Johnny"
             scroll={scrollTop}
             screenHeight={screenHeight}
@@ -421,25 +421,25 @@ function App() {
             </p>
           </StyledTitle>
           <StyledBuildingsLeft
-            src="/buildings_left.png"
+            src={`${import.meta.env.BASE_URL}buildings_left.png`}
             alt="Illustration buildings left"
             scroll={scrollTop}
             screenHeight={screenHeight}
           />
           <StyledBuildingsRight
-            src="/buildings_right.png"
+            src={`${import.meta.env.BASE_URL}buildings_right.png`}
             alt="Illustration buildings right"
             scroll={scrollTop}
             screenHeight={screenHeight}
           />
           <StyledTowers
-            src="/towers.png"
+            src={`${import.meta.env.BASE_URL}towers.png`}
             alt="Illustration buildings right"
             scroll={scrollTop}
             screenHeight={screenHeight}
           />
           <StyledBackground
-            src="/buildings_background.png"
+            src={`${import.meta.env.BASE_URL}buildings_background.png`}
             alt="Illustration background"
             scroll={scrollTop}
             screenHeight={screenHeight}
